@@ -85,16 +85,16 @@ img{
     justify-content: space-around;
 }
 
-#red, #blue{
+.red, .blue{
     font-size: 25px;
     font-weight: bolder;
 }
 
-#red{
+.red{
     color: #ce2e2b;
 }
 
-#blue{
+.blue{
     color: #3a80e4;
 }
 
