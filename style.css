@@ -98,6 +98,12 @@ img{
     color: #3a80e4;
 }
 
+.bottom{
+    width: 100%;
+    position: fixed;
+    bottom: 270px;
+}
+
 .cookie{
     border: 3px solid black;
     background-color: #eeeeee;

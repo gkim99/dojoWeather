@@ -22,7 +22,7 @@
         <div class="city">
             <h2>San Jose</h2>
             <p>show temperature in 
-                <select name="temp" id="temp">
+                <select name="temp" id="temp" onchange="convert(this)">
                     <option value="C">°C</option>
                     <option value="F">°F</option>
                 </select>
@@ -66,15 +66,17 @@
                 </div>
             </div>
         </div>
-        <div class="cookie">
-            <p><img src="assets/cookie.png" alt="cookie"></p>
-            <div id="stop">
-                <h3>Stop! Cookie time</h3>
-                <p>We use cookies (sadly not the edible ones) to personalize</p>
-                <p>content and ads, to provide social media features and to</p>
-                <p>analyse our traffic. <a href="#">Read more...</a></p>
+        <div class="bottom">
+            <div class="cookie">
+                <p><img src="assets/cookie.png" alt="cookie"></p>
+                <div id="stop">
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize</p>
+                    <p>content and ads, to provide social media features and to</p>
+                    <p>analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button id="accept" onclick="remove()">I Accept</button>
             </div>
-            <button id="accept" onclick="remove()">I Accept</button>
         </div>
     </div>
     <script src="script.js"></script>
